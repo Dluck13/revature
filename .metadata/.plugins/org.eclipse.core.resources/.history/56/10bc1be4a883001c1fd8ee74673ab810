@@ -1,0 +1,30 @@
+package oopsconcepts;
+
+public class FordFigoDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//primitive
+		int mark;
+		mark = 50;
+		
+		//object creation
+		
+		FordFigo newCar = new FordFigo();
+		
+		newCar.modelNo = 131313;
+		newCar.color =  "red";
+		newCar.carType = "suv";
+		
+		System.out.println("Color "+ newCar.color);
+		System.out.println(newCar.accelerate());
+		System.out.println(newCar.applyBrake());
+		System.out.println(newCar.lockCar());
+		System.out.println(newCar.unlockCar());
+
+		
+
+	}
+
+}

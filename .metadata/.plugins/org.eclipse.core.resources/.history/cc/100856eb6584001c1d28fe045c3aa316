@@ -1,0 +1,39 @@
+package dotcomgame;
+
+public class SimpleDotComDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//instantiate a SimpleDotCom object
+		SimpleDotCom newGame = new SimpleDotCom();
+		
+		//creating an array for location of 3 consecutive integers in an array
+		int[] locations = {5, 6 ,7};
+		
+		//invocation of the setter method
+		newGame.setLocationCells(locations);
+		
+		
+		//fake guess	
+	String userGuess = "2";
+	
+	//receives guess from fake user guess from userGuess
+	String result = newGame.checkYourself(userGuess);
+	
+	String testResult = "failed";
+	if (result.equals("hit")) {
+		testResult = "passed";
+		
+	}
+	
+	System.out.println(testResult);
+	
+		
+	
+		
+		
+
+	}
+
+}

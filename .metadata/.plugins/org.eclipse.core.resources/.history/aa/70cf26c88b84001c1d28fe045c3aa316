@@ -1,0 +1,14 @@
+package pojp;
+
+public class BookPojo {
+	
+	private int bookId;
+	private String bookTitle;
+	private String bookAuthor;
+	private String bookGenre;
+	private int bookCost;
+	private String bookImageUrl;
+	
+	
+
+}

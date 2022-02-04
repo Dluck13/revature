@@ -1,0 +1,5 @@
+package interfaceandabstractclasses;
+
+public class Cat extends Animal {
+
+}

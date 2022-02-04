@@ -1,0 +1,12 @@
+package interfaceandabstractclasses;
+
+public class Company1 implements SafetyGuidelines2022{
+	
+	public void protectHead() {
+		System.out.println("Hard hat");
+	}
+	
+	public void protectToes() {
+		System.out.println("Steel toe");
+	}
+}
