@@ -1,2 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="stringbufferbuilder.StringBufferDemo"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.util.TreeSet"/>
+    <fullyQualifiedTypeName name="dao.BookDao"/>
+    <fullyQualifiedTypeName name="dao.BookDaoImpi"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="service.BookService"/>
+    <fullyQualifiedTypeName name="service.BookServiceImpl"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="pojo.BookPojo"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+</qualifiedTypeNameHistroy>
